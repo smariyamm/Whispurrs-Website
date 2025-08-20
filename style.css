@@ -1,14 +1,15 @@
 /* General Styles */
 body {
+
     font-family: 'Pixelify Sans Medium', sans-serif;
     margin: 0;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #FFF4B3;
+    color: #FF7687;
 }
 
 header {
-    background-color: #DD5588;
-    color: white;
+    background-color: #77B5BD;
+    color: #FFF4B3;
     padding: 20px;
     text-align: center;
 }
@@ -16,6 +17,8 @@ header {
 header h1 {
     margin: 0;
     font-size: 3rem;
+    color: #FF7687;
+    background-color: #FFDF7B;
 }
 
 /* Tabs */
@@ -38,7 +41,7 @@ nav ul.tabs li.tab {
 
 nav ul.tabs li.tab.active,
 nav ul.tabs li.tab:hover {
-    background-color: #ffe0f0;
+    background-color: #FFF4B3;
     color: #DD5588;
 }
 
@@ -65,3 +68,60 @@ section p {
     font-size: 1.1rem;
     line-height: 1.6;
 }
+
+.figma-gallery {
+    text-align: center;   /* centers inline elements like <img> */
+  }
+  
+  .figma-gallery img {
+    margin: 10px;         /* adds space around each image */
+    display: inline-block; /* keeps them aligned neatly */
+  }
+
+  .figma-gallery gif {
+    margin: 10px;
+    display: inline-block;
+  }
+
+  .pixel-title {
+    color: #77B5BD;   /* text color */
+    font-weight: bold; /* makes it bold */
+    font-size: 48px;   /* makes it big (adjust size as you like) */
+    text-align: center; /* optional: center it */
+  }
+  
+
+  body {
+    background-color: #FFAF80;   /* soft background */
+    display: flex;
+    justify-content: center;     /* center horizontally */
+    align-items: center;         /* center vertically */
+    min-height: 100vh;           /* take full screen height */
+    margin: 0;
+    font-family: 'Pixelify Sans Medium', sans-serif;
+  }
+  
+  .page-container {
+    max-width: 900px;            /* keeps content readable */
+    width: 90%;                  /* responsive */
+    border: 12px solid #FF7687;  /* THICK border */
+    border-radius: 30px;         /* optional: rounded corners */
+    padding: 30px;
+    margin-top: 50px; 
+    background-color:#FFF4B3;     /* content background */
+    text-align: center;          /* center text + images */
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2); /* subtle shadow */
+
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #77B5BD;
+    margin-top: 0;
+  }
+  
+
+
+  
+  
