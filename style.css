@@ -1,4 +1,55 @@
 /* General Styles */
+
+.about {
+  top: 55px;
+  position: absolute;
+  left: 1130px; 
+  width: 100px;  /* scale gif to fit nicely */
+  height: auto;
+  pointer-events: none; /* so clicks pass through */
+  z-index: 9999; 
+}
+
+.front {
+  top: -10px;
+  position: absolute;
+  left: 1130px; 
+  width: 100px;  /* scale gif to fit nicely */
+  height: auto;
+  pointer-events: none; /* so clicks pass through */
+  z-index: 9999; 
+}
+
+.back {
+  top: -10px;
+  position: absolute;
+  left: 1130px; 
+  width: 100px;  /* scale gif to fit nicely */
+  height: auto;
+  pointer-events: none; /* so clicks pass through */
+  z-index: 9999; 
+}
+
+.screenshots {
+  top: -10px;
+  position: absolute;
+  left: 1130px; 
+  width: 100px;  /* scale gif to fit nicely */
+  height: auto;
+  pointer-events: none; /* so clicks pass through */
+  z-index: 9999; 
+}
+
+.reflections_ {
+  top: 33px;
+  position: absolute;
+  left: 1130px; 
+  width: 100px;  /* scale gif to fit nicely */
+  height: auto;
+  pointer-events: none; /* so clicks pass through */
+  z-index: 9999; 
+}
+
 body {
 
     font-family: 'Pixelify Sans Medium', sans-serif;
