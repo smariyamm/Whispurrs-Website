@@ -1,12 +1,10 @@
-/* General Styles */
-
 .about {
   top: 55px;
   position: absolute;
   left: 1130px; 
-  width: 100px;  /* scale gif to fit nicely */
+  width: 100px;  
   height: auto;
-  pointer-events: none; /* so clicks pass through */
+  pointer-events: none; 
   z-index: 9999; 
 }
 
@@ -14,9 +12,9 @@
   top: -10px;
   position: absolute;
   left: 1130px; 
-  width: 100px;  /* scale gif to fit nicely */
+  width: 100px; 
   height: auto;
-  pointer-events: none; /* so clicks pass through */
+  pointer-events: none; 
   z-index: 9999; 
 }
 
@@ -24,9 +22,9 @@
   top: -10px;
   position: absolute;
   left: 1130px; 
-  width: 100px;  /* scale gif to fit nicely */
+  width: 100px;  
   height: auto;
-  pointer-events: none; /* so clicks pass through */
+  pointer-events: none; 
   z-index: 9999; 
 }
 
@@ -34,9 +32,9 @@
   top: -10px;
   position: absolute;
   left: 1130px; 
-  width: 100px;  /* scale gif to fit nicely */
+  width: 100px;  
   height: auto;
-  pointer-events: none; /* so clicks pass through */
+  pointer-events: none; 
   z-index: 9999; 
 }
 
@@ -44,9 +42,9 @@
   top: 33px;
   position: absolute;
   left: 1130px; 
-  width: 100px;  /* scale gif to fit nicely */
+  width: 100px;  
   height: auto;
-  pointer-events: none; /* so clicks pass through */
+  pointer-events: none; 
   z-index: 9999; 
 }
 
@@ -121,12 +119,12 @@ section p {
 }
 
 .figma-gallery {
-    text-align: center;   /* centers inline elements like <img> */
+    text-align: center;   
   }
   
   .figma-gallery img {
-    margin: 10px;         /* adds space around each image */
-    display: inline-block; /* keeps them aligned neatly */
+    margin: 10px;         
+    display: inline-block; 
   }
 
   .figma-gallery gif {
@@ -135,33 +133,33 @@ section p {
   }
 
   .pixel-title {
-    color: #77B5BD;   /* text color */
-    font-weight: bold; /* makes it bold */
-    font-size: 48px;   /* makes it big (adjust size as you like) */
-    text-align: center; /* optional: center it */
+    color: #77B5BD;   
+    font-weight: bold; 
+    font-size: 48px;   
+    text-align: center; 
   }
   
 
   body {
-    background-color: #FFAF80;   /* soft background */
+    background-color: #FFAF80;   
     display: flex;
-    justify-content: center;     /* center horizontally */
-    align-items: center;         /* center vertically */
-    min-height: 100vh;           /* take full screen height */
+    justify-content: center;     
+    align-items: center;         
+    min-height: 100vh;           
     margin: 0;
     font-family: 'Pixelify Sans Medium', sans-serif;
   }
   
   .page-container {
-    max-width: 900px;            /* keeps content readable */
-    width: 90%;                  /* responsive */
-    border: 12px solid #FF7687;  /* THICK border */
-    border-radius: 30px;         /* optional: rounded corners */
+    max-width: 900px;            
+    width: 90%;                  
+    border: 12px solid #FF7687;  
+    border-radius: 30px;         
     padding: 30px;
     margin-top: 50px; 
-    background-color:#FFF4B3;     /* content background */
-    text-align: center;          /* center text + images */
-    box-shadow: 0 8px 25px rgba(0,0,0,0.2); /* subtle shadow */
+    background-color:#FFF4B3;    
+    text-align: center;          
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
 
   }
   
