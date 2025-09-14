@@ -1,53 +1,3 @@
-.about {
-  top: 55px;
-  position: absolute;
-  left: 1130px; 
-  width: 100px;  
-  height: auto;
-  pointer-events: none; 
-  z-index: 9999; 
-}
-
-.front {
-  top: -10px;
-  position: absolute;
-  left: 1130px; 
-  width: 100px; 
-  height: auto;
-  pointer-events: none; 
-  z-index: 9999; 
-}
-
-.back {
-  top: -10px;
-  position: absolute;
-  left: 1130px; 
-  width: 100px;  
-  height: auto;
-  pointer-events: none; 
-  z-index: 9999; 
-}
-
-.screenshots {
-  top: -10px;
-  position: absolute;
-  left: 1130px; 
-  width: 100px;  
-  height: auto;
-  pointer-events: none; 
-  z-index: 9999; 
-}
-
-.reflections_ {
-  top: 33px;
-  position: absolute;
-  left: 1130px; 
-  width: 100px;  
-  height: auto;
-  pointer-events: none; 
-  z-index: 9999; 
-}
-
 body {
 
     font-family: 'Pixelify Sans Medium', sans-serif;
@@ -150,7 +100,7 @@ section p {
     font-family: 'Pixelify Sans Medium', sans-serif;
   }
   
-  .page-container {
+  /* .page-container {
     max-width: 900px;            
     width: 90%;                  
     border: 12px solid #FF7687;  
@@ -161,7 +111,7 @@ section p {
     text-align: center;          
     box-shadow: 0 8px 25px rgba(0,0,0,0.2);
 
-  }
+  } */
   
   h1 {
     font-size: 3rem;
@@ -171,6 +121,26 @@ section p {
   }
   
 
+.page-container {
+    position: relative;  /* Add this */
+    max-width: 900px;
+    width: 90%;
+    border: 12px solid #FF7687;
+    border-radius: 30px;
+    padding: 30px;
+    margin-top: 50px;
+    background-color:#FFF4B3;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
 
   
-  
+.page-container img.sticky-gif {
+    position: absolute;  /* float above content */
+    top: -70px;              /* stick to top of container */
+    left: 880px;             /* stick to left of container */
+    width: 100px;
+    height: auto;
+    pointer-events: none;
+    z-index: 9999;
+}
